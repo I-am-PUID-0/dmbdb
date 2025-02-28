@@ -16,7 +16,7 @@
     "axios": "^1.8.1",
     "http-proxy-middleware": "^3.0.3",
     "js-yaml": "^4.1.0",
-    "nuxt": "^3.14.159",
+    "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "^4.5.0",
     "vue-screen": "^2.4.2"
