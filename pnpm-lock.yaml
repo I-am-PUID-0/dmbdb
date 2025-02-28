@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@material-symbols/font-400':
-        specifier: ^0.27.2
-        version: 0.27.2
+        specifier: ^0.28.2
+        version: 0.28.2
       '@vueuse/core':
         specifier: ^12.2.0
         version: 12.2.0(typescript@5.6.3)
@@ -533,8 +533,8 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
 
-  '@material-symbols/font-400@0.27.2':
-    resolution: {integrity: sha512-hXRCp/VZ7l9V5eq9vXeJxTN47B6/ZoHjN7wzRN3T1cL3Mz0VsXs3PvjEN6AZ4EMdXJ5eL4lzeC6tkcudcZ8NSg==}
+  '@material-symbols/font-400@0.28.2':
+    resolution: {integrity: sha512-JG4r0Q9aA0eASWwhUMdwYgINIvC10hWIUebNvYNX25cJI5TqvIV4LMgPtWjw09jIG0nVPyzFt8Cnhm89qbgRWQ==}
 
   '@netlify/functions@2.8.2':
     resolution: {integrity: sha512-DeoAQh8LuNPvBE4qsKlezjKj0PyXDryOFJfJKo3Z1qZLKzQ21sT314KQKPVjfvw6knqijj+IO+0kHXy/TJiqNA==}
@@ -3932,7 +3932,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@material-symbols/font-400@0.27.2': {}
+  '@material-symbols/font-400@0.28.2': {}
 
   '@netlify/functions@2.8.2':
     dependencies:

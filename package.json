@@ -11,7 +11,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@material-symbols/font-400": "^0.27.2",
+    "@material-symbols/font-400": "^0.28.2",
     "@vueuse/core": "^12.2.0",
     "axios": "^1.8.1",
     "http-proxy-middleware": "^3.0.3",
