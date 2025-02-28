@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@material-symbols/font-400':
-        specifier: ^0.27.2
-        version: 0.27.2
+        specifier: ^0.28.2
+        version: 0.28.2
       '@vueuse/core':
         specifier: ^12.2.0
         version: 12.2.0(typescript@5.6.3)
@@ -32,6 +32,9 @@ importers:
       vue-router:
         specifier: ^4.5.0
         version: 4.5.0(vue@3.5.13(typescript@5.6.3))
+      vue-screen:
+        specifier: ^2.4.2
+        version: 2.4.2(vue@3.5.13(typescript@5.6.3))
     devDependencies:
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.2
@@ -530,8 +533,8 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
 
-  '@material-symbols/font-400@0.27.2':
-    resolution: {integrity: sha512-hXRCp/VZ7l9V5eq9vXeJxTN47B6/ZoHjN7wzRN3T1cL3Mz0VsXs3PvjEN6AZ4EMdXJ5eL4lzeC6tkcudcZ8NSg==}
+  '@material-symbols/font-400@0.28.2':
+    resolution: {integrity: sha512-JG4r0Q9aA0eASWwhUMdwYgINIvC10hWIUebNvYNX25cJI5TqvIV4LMgPtWjw09jIG0nVPyzFt8Cnhm89qbgRWQ==}
 
   '@netlify/functions@2.8.2':
     resolution: {integrity: sha512-DeoAQh8LuNPvBE4qsKlezjKj0PyXDryOFJfJKo3Z1qZLKzQ21sT314KQKPVjfvw6knqijj+IO+0kHXy/TJiqNA==}
@@ -2130,6 +2133,7 @@ packages:
 
   lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 
   lodash.memoize@4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
@@ -3372,6 +3376,11 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
+  vue-screen@2.4.2:
+    resolution: {integrity: sha512-p/caVhEaf8g6eGBlNvZ6a8JR0Ab/v9ltB5RSUVSvXPY3IaVaQxsWRDmagioOWvOVBmNvIUee1aNdHVtvVYDK0g==}
+    peerDependencies:
+      vue: ^3.0.0
+
   vue@3.5.13:
     resolution: {integrity: sha512-wmeiSMxkZCSc+PM2w2VRsOYAZC8GdipNFRTsLSfodVqI9mbejKeXEGr8SckuLnrQPGe3oJN5c3K0vpoU9q/wCQ==}
     peerDependencies:
@@ -3883,7 +3892,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@material-symbols/font-400@0.27.2': {}
+  '@material-symbols/font-400@0.28.2': {}
 
   '@netlify/functions@2.8.2':
     dependencies:
@@ -7151,6 +7160,10 @@ snapshots:
   vue-router@4.5.0(vue@3.5.13(typescript@5.6.3)):
     dependencies:
       '@vue/devtools-api': 6.6.4
+      vue: 3.5.13(typescript@5.6.3)
+
+  vue-screen@2.4.2(vue@3.5.13(typescript@5.6.3)):
+    dependencies:
       vue: 3.5.13(typescript@5.6.3)
 
   vue@3.5.13(typescript@5.6.3):
